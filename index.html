@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zodiac Quiz</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>What's Your Zodiac Sign?</h1>
-  <div id="quiz-container">
-    <div class="question" data-question="Aries">Question 1: What is your zodiac sign?</div>
-    <div class="question" data-question="Taurus">Question 2: What element is associated with your zodiac sign?</div>
-    <div class="question" data-question="Gemini">Question 3: What planet rules your zodiac sign?</div>
-  </div>
-  <script src="script.js"></script>
+  <p>Select your birthdate:</p>
+  <select id="month">
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <!-- Add other months here -->
+  </select>
+  <select id="day">
+    <!-- Add days for each month here -->
+  </select>
+  <br>
+  <button onclick="getZodiacSign()">Find My Zodiac Sign</button>
+  <div id="result"></div>
 </body>
 </html>
