@@ -30,20 +30,24 @@ const messages = [
     // Add more messages for Gemini as needed
   ],
 
-  // Messages for Card 4
+  // Messages for Cancer
   [
-    "Message 1 for Card 2.",
-    "Message 2 for Card 2.",
-    "Message 3 for Card 2.",
-    // Add more messages for Card 2 as needed
+"Your nurturing nature makes you a source of comfort and support for others.",
+"Trust your intuition when making decisions; it rarely leads you astray.",
+"Create a harmonious home environment where you can recharge and heal.",
+"Your artistic talents shine; express yourself through creative endeavors.",
+"Cherish your close relationships; your emotional connections are precious.",
+    // Add more messages for Cancer as needed
   ],
 
-    // Messages for Card 5
+    // Messages for Leo
   [
-    "Message 1 for Card 1.",
-    "Message 2 for Card 1.",
-    "Message 3 for Card 1.",
-    // Add more messages for Card 1 as needed
+"Your charisma and confidence light up any room you enter.",
+"Embrace your individuality and let your unique talents shine.",
+"Your generosity knows no bounds; share your blessings with others.",
+"Your ambition and determination will lead you to achieve greatness.",
+"Surround yourself with those who appreciate your radiant spirit.",
+    // Add more messages for Leo as needed
   ],
 
   // Messages for Card 6
