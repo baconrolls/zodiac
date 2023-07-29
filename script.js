@@ -10,20 +10,24 @@ const messages = [
     // Add more messages for Aries as needed
   ],
 
-  // Messages for Card 2
+  // Messages for Taurus
   [
-    "Message 1 for Card 2.",
-    "Message 2 for Card 2.",
-    "Message 3 for Card 2.",
-    // Add more messages for Card 2 as needed
+"Your practicality and perseverance will help you overcome any obstacles.",
+"Take time to indulge in self-care and enjoy life's simple pleasures.",
+"Embrace change with an open mind, as it brings growth and new opportunities.",
+"Your loyalty and reliability make you a cherished friend and partner.",
+"Trust your instincts when making financial decisions; you have a good sense of value.",
+    // Add more messages for Taurus as needed
   ],
     
-// Messages for Card 3
+// Messages for Gemini
   [
-    "Message 1 for Card 1.",
-    "Message 2 for Card 1.",
-    "Message 3 for Card 1.",
-    // Add more messages for Card 1 as needed
+"Your adaptability allows you to excel in various situations and social circles.",
+"Embrace your curiosity and keep exploring diverse interests and hobbies.",
+"Your excellent communication skills make you a captivating storyteller.",
+"Cultivate deep connections by being a good listener and empathetic friend.",
+"Keep your mind open to new perspectives; it enriches your intellectual growth.",
+    // Add more messages for Gemini as needed
   ],
 
   // Messages for Card 4
