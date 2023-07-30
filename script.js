@@ -157,3 +157,21 @@ function backToMain() {
     card.style.display = "block";
   });
 }
+
+
+    function adjustIframeHeight() {
+      const iframe = document.getElementById('responsive-iframe');
+      const container = iframe.parentElement;
+      const aspectRatio = 580 / 1000; // Adjust this ratio based on the iframe content's height and width
+
+      const containerWidth = container.offsetWidth;
+      const calculatedHeight = containerWidth * aspectRatio;
+
+      iframe.style.height = `${calculatedHeight}px`;
+    }
+
+    // Call the function to adjust the iframe height initially
+    adjustIframeHeight();
+
+    // Call the function again when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
