@@ -28,9 +28,44 @@ body {
   max-width: 700px;
 }
 
-.card {
-  transition: transform 0.3s ease;
+/* Existing styles for the cards */
+
+#resultImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
+
+/* Other existing styles */
+
+/* Add this CSS code for the tooltip */
+.card {
+  position: relative;
+}
+
+.card::after {
+  content: attr(alt);
+  visibility: hidden;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.card:hover::after {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
 
 .card img {
   max-width: 100%;
@@ -82,13 +117,6 @@ body {
 }
 
 h2{font-family: 'GoodDogNewW00-Regular';text-align:left; align-items: left; font-size: 1.5em; color:#D660BE;}
-
-div#resultContainer.result-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
 
 p {
   font-size: 2em; font-weight:300;
