@@ -122,9 +122,19 @@ const messages = [
     
 ];
 
-function showCard(cardNumber) {
+  function showCard(cardNumber) {
+  const cards = document.querySelectorAll(".card");
   const resultContainer = document.getElementById("resultContainer");
   const resultMessage = document.getElementById("resultMessage");
+
+  // Hide all cards
+  cards.forEach((card) => {
+    card.style.display = "none";
+  });
+
+  // Show the selected card
+  const selectedCard = document.querySelector(`.card:nth-child(${cardNumber})`);
+  selectedCard.style.display = "block";
 
   // Show a random message on the selected card
   const randomMessages = messages[cardNumber - 1];
@@ -136,7 +146,14 @@ function showCard(cardNumber) {
 }
 
 function backToMain() {
-  // Redirect to the index page or your main page URL
-  // Replace "index.html" with your main page URL if needed
-  window.location.href = "index.html";
+  const cards = document.querySelectorAll(".card");
+  const resultContainer = document.getElementById("resultContainer");
+
+  // Hide the result container
+  resultContainer.style.display = "none";
+
+  // Show all cards again
+  cards.forEach((card) => {
+    card.style.display = "block";
+  });
 }
