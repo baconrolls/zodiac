@@ -42,29 +42,6 @@ body {
   position: relative;
 }
 
-.card::after {
-  content: attr(alt);
-  visibility: hidden;
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-30%);
-  background-color: #000;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity 0.3s, visibility 0s linear 0.3s;
-}
-
-.card:hover::after {
-  visibility: visible;
-  opacity: 1;
-  transition-delay: 0s;
-}
-
-
 .card img {
   max-width: 100%;
   height: auto;
@@ -141,62 +118,5 @@ p {
 }
 a { text-decoration:none; color:black}
 
-/* Add this CSS code to center the image in the result view */
-#resultImage {
-  display: block;
-  margin: 0 auto;
-}
 
-.title-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px; display:none;
-  /* Add other styles for the title overlay as needed */
-}
-
-.iframe-container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* Existing styles for the cards */
-
-/* Add this CSS code for the tooltip */
-.card {
-  position: relative;
-}
-
-.card::after {
-  content: attr(alt);
-  visibility: hidden;
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #000;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 12px;
-  opacity: 0;
-  transition: opacity 0.3s, visibility 0s linear 0.3s;
-}
-
-.card:hover::after {
-  visibility: visible;
-  opacity: 1;
-  transition-delay: 0s;
-}
 
