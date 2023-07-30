@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Set a minimum height for the body to fill the viewport */
+  min-height: 140vh; /* Set a minimum height for the body to fill the viewport */
   margin: 0;
 }
 
