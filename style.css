@@ -2,12 +2,21 @@
 
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height for the body to fill the viewport */
+  margin: 0;
+}
+
+.container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: ;
-  margin: 0;
 }
+
+/* Add other CSS rules as needed for the rest of your content */
+
 
 .card-container {
   display: grid;
