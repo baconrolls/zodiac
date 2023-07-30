@@ -125,7 +125,7 @@ const messages = [
 function adjustIframeHeight() {
       const iframe = document.getElementById('responsive-iframe');
       const container = iframe.parentElement;
-      const aspectRatio = 580 / 1000; // Adjust this ratio based on the iframe content's height and width
+      const aspectRatio = 750 / 1000; // Adjust this ratio based on the iframe content's height and width
 
       const containerWidth = container.offsetWidth;
       const calculatedHeight = containerWidth * aspectRatio;
