@@ -50,7 +50,7 @@ body {
   position: absolute;
   bottom: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   background-color: #000;
   color: #fff;
   padding: 5px;
@@ -156,7 +156,7 @@ a { text-decoration:none; color:black}
   transform: translate(-50%, -50%);
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px;
+  padding: 10px; display:none;
   /* Add other styles for the title overlay as needed */
 }
 
