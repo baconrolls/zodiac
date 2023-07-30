@@ -108,3 +108,32 @@ a { text-decoration:none; color:black}
   display: block;
   margin: 0 auto;
 }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Add other styles for the card container as needed */
+}
+
+.card {
+  position: relative;
+  width: 250px; /* Adjust the card width as needed */
+  margin: 10px;
+  /* Add other styles for the card as needed */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  /* Add other styles for the image as needed */
+}
+
+.title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  /* Add other styles for the title overlay as needed */
+}
