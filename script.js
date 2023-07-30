@@ -145,6 +145,11 @@ function adjustIframeHeight() {
   const resultContainer = document.getElementById("resultContainer");
   const resultMessage = document.getElementById("resultMessage");
 
+  // Check if the result container is visible
+  if (resultContainer.style.display !== "none") {
+    return; // If visible, do not update the message
+  }
+
   // Hide all cards
   cards.forEach((card) => {
     card.style.display = "none";
