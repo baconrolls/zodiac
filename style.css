@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 150vh; /* Set a minimum height for the container to cover the viewport */
 }
 
 .container {
@@ -25,7 +24,6 @@ body {
  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Update this line */
   gap: 10px;
-  max-width: 750px;
 }
 
 /* Existing styles for the cards */
