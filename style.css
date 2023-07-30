@@ -22,10 +22,10 @@ body {
 /* Add other CSS rules as needed for the rest of your content */
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+ display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Update this line */
   gap: 20px;
-  max-width: 700px; 
+  max-width: 700px;
 }
 
 .card {
